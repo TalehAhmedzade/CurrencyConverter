@@ -5,15 +5,41 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   height: 100%;
+  font-family: Roboto;
 }
 
 .main {
   display: flex;
+  justify-content: center;
+}
+.logo{
+  padding-top: 10px;
+}
+.title{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #F5F5F6;
+}
+.title button{
+  background-color: white;
+  border: none;
+  color: gray;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-family: Roboto;
+}
+.title ul:first-child{
+  color:black;
+}
+.title ul{
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+}
+.title ul li{
+  padding-left: 10px;
 }
 .right {
   padding-left: 123px;
@@ -24,10 +50,12 @@ h1 {
   font-family: Roboto;
   padding-bottom: 33px;
   padding-top: 33px;
+  text-align: center;
 }
 .first {
   font-size: 12px;
   color: gray;
+  margin-bottom: 10px;
 }
 
 .currency {
@@ -46,9 +74,10 @@ h1 {
   color: gray;
   cursor: pointer;
   transition-duration: 0.4s;
+  font-family: Roboto;
 }
 button:hover{
-    background-color: #04AA6D;
+    background-color: purple;
     color: white;
 }
 .rub {
@@ -71,7 +100,6 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 .exchangeRate input{
     width: 100%;
     border: none;
