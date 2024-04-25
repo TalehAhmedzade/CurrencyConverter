@@ -113,3 +113,11 @@ input::-webkit-inner-spin-button {
     padding-top: 20px;
     padding-left: 16px;
 }
+
+
+.left .rub{
+  background-color: purple;
+}
+.right .usd {
+  background-color: purple;
+}

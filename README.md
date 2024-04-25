@@ -14,3 +14,7 @@ Default olaraq sahələr aşağıdakı formatda əvvəlcədən doldurulur:
 Sol sahədə bir ədədi daxil edilmişdir.
 Sağ sahə isə sol sahədə olan ədədlə alınmış valyuta vahidi üzrə ədədin hasili ilə doldurulur.
 Sahələrin yaxınlığında valyuta seçmək üçün düymə mövcuddur. 
+İki eyni valyuta seçərkən serverə sorğu göndərməyə ehtiyac yoxdur. Default  olaraq sol sahə üçün RUB, sağ sahə üçün isə ABŞ dolları seçilmişdir (layout-da olduğu kimi).
+Konvertor həm dəyişdirilən valyutanın istənilənə, həm də istənilən valyutanın dəyişdirilənə kursunu göstərə bilir.
+API əlçatmaz olduqda və ya ona sorğu göndərərkən xəta olarsa, proqram donmur, fəaliyyətini dayandırmır və  istifadəçiyə nəyinsə səhv getdiyi barədə mesaj göstərilir.
+Layihə GitHub-da ayrıca repozitoriyada olmalıdır.
